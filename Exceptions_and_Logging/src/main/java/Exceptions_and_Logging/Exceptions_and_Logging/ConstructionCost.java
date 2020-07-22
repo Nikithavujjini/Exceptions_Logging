@@ -23,7 +23,7 @@ class server{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         construction_cost cs=new construction_cost();
-        //Didn't used "println"
+        //Without using  "System.out.println()"
         LOGGER.info("Enter 1:Standard Material 2:Above Standard Material 3:High Standard Material 4:High Standard Material and Fully Ay=utomated");
         int i=sc.nextInt();
         double area=20;
